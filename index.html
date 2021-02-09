@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Multiplication Table</h1>
+    <button onclick="outputTable(1); changeColor('#801515')"; class="singleDigit" id="one">1</button>
+    <button onclick="outputTable(2); changeColor('#0D4D4D')" class="singleDigit" id="two">2</button>
+    <button onclick="outputTable(3); changeColor('#116611')" class="singleDigit" id="three">3</button>
+    <button onclick="outputTable(4); changeColor('#804515')" class="singleDigit" id="four">4</button>
+    <button onclick="outputTable(5); changeColor('#550000')" class="singleDigit" id="five">5</button>
+    <button onclick="outputTable(6); changeColor('#003333')" class="singleDigit" id="six">6</button>
+    <br>
+    <button onclick="outputTable(7); changeColor('#004400')" class="singleDigit" id="seven">7</button>
+    <button onclick="outputTable(8); changeColor('#552700')" class="singleDigit" id="eight">8</button>
+    <button onclick="outputTable(9); changeColor('#D46A6A')" class="singleDigit" id="nine">9</button>
+    <button onclick="outputTable(10); changeColor('#407F7F')" id="ten">10</button>
+    <button onclick="outputTable(11); changeColor('#55AA55')" id="eleven">11</button>
+    <button onclick="outputTable(12); changeColor('#D49A6A')" id="twelve">12</button>
+    <div id="outputBox">
+        <div id="innerBox">
+            <p id="tableOutput"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
